@@ -1,0 +1,176 @@
+{
+  "expo": {
+    "name": "Bác sĩ Lúa Final",
+    "slug": "doctorrice-final",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/logo2.png",
+    "scheme": "doctorrice",
+    "userInterfaceStyle": "automatic",
+    "primaryColor": "#4CAF50",
+    "backgroundColor": "#4CAF50",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./src/assets/images/logo2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4CAF50"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.doctorrice.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "UIUserInterfaceStyle": "automatic",
+        "UIStatusBarStyle": "UIStatusBarStyleDefault",
+        "NSCameraUsageDescription": "Ứng dụng cần quyền truy cập camera để chụp ảnh bệnh lúa và tạo watermark GPS.",
+        "NSLocationWhenInUseUsageDescription": "Ứng dụng cần quyền truy cập vị trí để ghi thông tin GPS vào ảnh chụp.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Ứng dụng cần quyền truy cập vị trí để ghi thông tin GPS vào ảnh chụp."
+      },
+      "splash": {
+        "image": "./src/assets/images/logo2.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#4CAF50",
+        "dark": {
+          "image": "./src/assets/images/logo2.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#4CAF50"
+        }
+      }
+    },
+    "android": {
+      "package": "com.doctorrice.app",
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "android.permission.USE_BIOMETRIC",
+        "android.permission.USE_FINGERPRINT"
+      ],
+      "adaptiveIcon": {
+        "backgroundColor": "#4CAF50",
+        "foregroundImage": "./src/assets/images/logo2.png"
+      },
+      "softwareKeyboardLayoutMode": "pan",
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "userInterfaceStyle": "automatic",
+      "splash": {
+        "image": "./src/assets/images/logo2.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#4CAF50",
+        "dark": {
+          "image": "./src/assets/images/logo2.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#4CAF50"
+        },
+        "mdpi": "./src/assets/images/logo2.png",
+        "hdpi": "./src/assets/images/logo2.png",
+        "xhdpi": "./src/assets/images/logo2.png",
+        "xxhdpi": "./src/assets/images/logo2.png",
+        "xxxhdpi": "./src/assets/images/logo2.png"
+      }
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./src/assets/images/logo2.png",
+      "splash": {
+        "image": "./src/assets/images/logo2.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#4CAF50",
+        "dark": {
+          "image": "./src/assets/images/logo2.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#4CAF50"
+        }
+      }
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./src/assets/images/logo2.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#4CAF50",
+          "dark": {
+            "image": "./src/assets/images/logo2.png",
+            "imageWidth": 200,
+            "resizeMode": "contain",
+            "backgroundColor": "#4CAF50"
+          }
+        }
+      ],
+      [
+        "expo-system-ui",
+        {
+          "userInterfaceStyle": "automatic",
+          "android": {
+            "userInterfaceStyle": "automatic"
+          },
+          "ios": {
+            "userInterfaceStyle": "automatic"
+          }
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": false,
+            "networkSecurityConfig": "./network_security_config.xml",
+            "enableMinifyInReleaseBuilds": true,
+            "enableShrinkResourcesInReleaseBuilds": true,
+            "enableProguardInReleaseBuilds": true,
+            "useLegacyPackaging": false,
+            "packagingOptions": {
+              "pickFirst": [
+                "lib/x86/libc++_shared.so",
+                "lib/x86_64/libc++_shared.so",
+                "lib/armeabi-v7a/libc++_shared.so",
+                "lib/arm64-v8a/libc++_shared.so"
+              ]
+            }
+          },
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "@react-native-google-signin/google-signin",
+      "expo-secure-store",
+      "expo-local-authentication"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "apiUrl": "https://doctorrice-main.onrender.com/api",
+      "openWeatherApiKey": "<NEW_OPENWEATHER_API_KEY>",
+      "openWeatherBaseUrl": "https://api.openweathermap.org/data/2.5",
+      "geminiApiKey": "<NEW_GEMINI_API_KEY>",
+      "geminiApiUrl": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent",
+      "eas": {
+        "projectId": "beebb0bf-07a3-482c-84dc-c2effa202e0f"
+      }
+    },
+    "owner": "kiss1305",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/beebb0bf-07a3-482c-84dc-c2effa202e0f",
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 0
+    }
+  }
+}

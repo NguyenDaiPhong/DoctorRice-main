@@ -1,0 +1,714 @@
+{
+  "common": {
+    "appName": "Bác sĩ Lúa",
+    "confirm": "Xác nhận",
+    "cancel": "Hủy",
+    "save": "Lưu",
+    "delete": "Xóa",
+    "edit": "Chỉnh sửa",
+    "close": "Đóng",
+    "retry": "Thử lại",
+    "loading": "Đang tải...",
+    "error": "Có lỗi xảy ra",
+    "success": "Thành công",
+    "warning": "Cảnh báo",
+    "ok": "OK",
+    "back": "Quay lại",
+    "next": "Tiếp theo",
+    "done": "Hoàn tất",
+    "skip": "Bỏ qua"
+  },
+
+  "auth": {
+    "login": "Đăng nhập",
+    "register": "Đăng ký",
+    "logout": "Đăng xuất",
+    "name": "Tên",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "confirmPassword": "Xác nhận mật khẩu",
+    "phone": "Số điện thoại",
+    "phoneNumber": "Số điện thoại",
+    "enterPhone": "Nhập số điện thoại",
+    "enterPassword": "Nhập mật khẩu",
+    "enterName": "Nhập họ và tên",
+    "fullName": "Họ và tên",
+    "displayName": "Tên hiển thị",
+    "rememberMe": "Lưu mật khẩu",
+    "forgotPassword": "Quên mật khẩu?",
+    "resetPassword": "Đặt lại mật khẩu",
+    "newPassword": "Mật khẩu mới",
+    "dontHaveAccount": "Chưa có tài khoản?",
+    "notMember": "Bạn chưa là thành viên của Bác sĩ Lúa?",
+    "quickLoginOTP": "Đăng nhập nhanh với OTP",
+    "alreadyHaveAccount": "Đã có tài khoản?",
+    "loginWithGoogle": "Đăng nhập với Google",
+    "loginWithFacebook": "Đăng nhập với Facebook",
+    "loginWithPhone": "Đăng nhập với số điện thoại",
+    "orLoginWith": "Hoặc đăng nhập với",
+    "sendOTP": "Gửi mã OTP",
+    "verifyOTP": "Xác nhận",
+    "enterOTP": "Nhập mã OTP",
+    "otpCode": "Mã xác thực",
+    "otpSent": "Mã OTP đã được gửi đến {{phone}}",
+    "resendOTP": "Gửi lại mã",
+    "completeRegistration": "Hoàn tất đăng ký",
+    "completeProfile": "Hoàn tất thông tin",
+    "agreeTerms": "Tôi đồng ý với",
+    "termsAndConditions": "Điều khoản và điều kiện sử dụng dịch vụ",
+    "and": "và",
+    "privacyPolicy": "Chính sách bảo vệ dữ liệu",
+    "ofDoctorRice": "của Bác sĩ Lúa",
+    "mustAgreeTerms": "Bạn phải đồng ý với điều khoản và chính sách để tiếp tục",
+    "invalidCredentials": "Số điện thoại hoặc mật khẩu không đúng",
+    "emailRequired": "Vui lòng nhập email",
+    "passwordRequired": "Vui lòng nhập mật khẩu",
+    "phoneRequired": "Vui lòng nhập số điện thoại",
+    "nameRequired": "Vui lòng nhập họ và tên",
+    "otpRequired": "Vui lòng nhập mã OTP",
+    "invalidEmail": "Email không hợp lệ",
+    "invalidPhone": "Số điện thoại không hợp lệ",
+    "invalidOTP": "Mã OTP không hợp lệ",
+    "passwordTooShort": "Mật khẩu phải có trên 6 ký tự",
+    "passwordNeedsUppercase": "Mật khẩu cần ít nhất 1 chữ HOA (A-Z)",
+    "passwordNeedsLowercase": "Mật khẩu cần ít nhất 1 chữ thường (a-z)",
+    "passwordNeedsNumber": "Mật khẩu cần ít nhất 1 chữ số (0-9)",
+    "passwordsNotMatch": "Mật khẩu xác nhận không khớp",
+    "loginSuccess": "Đăng nhập thành công",
+    "registerSuccess": "Đăng ký thành công",
+    "logoutSuccess": "Đăng xuất thành công",
+    "otpVerifySuccess": "Xác thực thành công",
+    "passwordResetSuccess": "Đặt lại mật khẩu thành công",
+    "sendingOTP": "Đang gửi mã OTP...",
+    "verifyingOTP": "Đang xác thực OTP...",
+    "verifying": "Đang xác thực...",
+    "loggingIn": "Đang đăng nhập...",
+    "signingInWithGoogle": "Đang đăng nhập với Google...",
+    "registering": "Đăng ký...",
+    "newUser": "Người dùng mới",
+    "completeRegistrationMessage": "Số điện thoại chưa được đăng ký. Vui lòng hoàn tất thông tin để tạo tài khoản.",
+    "phoneNotRegistered": "Số điện thoại chưa đăng ký",
+    "phoneNotRegisteredMessage": "Số điện thoại này chưa được đăng ký. Bạn có muốn đăng ký tài khoản mới không?",
+    "googleLoginSuccess": "Đăng nhập Google thành công!",
+    "googleLoginFailed": "Đăng nhập Google thất bại",
+    "pleaseAgreeTerms": "Vui lòng đồng ý với điều khoản và chính sách để tiếp tục",
+    "otpExpired": "Mã OTP đã hết hạn",
+    "otpExpiredMessage": "Mã OTP đã hết hạn sau 60 giây. Bạn có muốn gửi lại mã mới không?",
+    "verificationFailed": "Xác thực thất bại"
+  },
+
+  "camera": {
+    "title": "Chụp ảnh",
+    "takePicture": "Chụp ảnh",
+    "retake": "Chụp lại",
+    "usePhoto": "Sử dụng ảnh này",
+    "instruction": "Đặt cây của bạn vào giữa khung hình",
+    "tips": "Mẹo chụp",
+    "tipsTitle": "Mẹo chụp ảnh hiệu quả",
+    "tipsContent": "• Chụp ảnh trong điều kiện ánh sáng tốt\n• Đặt lá lúa ở trung tâm khung hình\n• Tránh bóng mờ và phản chiếu\n• Chụp cận cảnh các vết bệnh nếu có",
+    "loadingLocation": "Đang lấy vị trí...",
+    "locationRequired": "Đang lấy vị trí GPS...",
+    "permissionRequired": "Cần cấp quyền",
+    "cameraPermissionDenied": "Bạn cần cấp quyền camera để sử dụng tính năng này",
+    "locationPermissionDenied": "Bạn cần cấp quyền vị trí để thêm watermark GPS",
+    "cameraPermissionRationale": "Ứng dụng cần quyền truy cập camera để chụp ảnh cây lúa",
+    "locationPermissionRationale": "Ứng dụng cần quyền vị trí để ghi vị trí GPS lên ảnh",
+    "openSettings": "Mở cài đặt",
+    "grantPermission": "Cấp quyền",
+    "uploading": "Đang tải lên...",
+    "processing": "Đang xử lý...",
+    "uploadProgress": "Đã tải {{percent}}%",
+    "uploadSuccess": "Tải ảnh lên thành công",
+    "uploadFailed": "Tải ảnh lên thất bại",
+    "watermarkFailed": "Không thể thêm watermark",
+    "locationNotAvailable": "Không thể lấy vị trí hiện tại"
+  },
+
+  "diseases": {
+    "healthy": "Lá khỏe mạnh",
+    "bacterial_leaf_blight": "Bệnh cháy bìa lá",
+    "blast": "Bệnh đạo ôn",
+    "brown_spot": "Bệnh đốm nâu"
+  },
+
+  "map": {
+    "title": "Bản đồ nông trại",
+    "loading": "Đang tải bản đồ...",
+    "noPhotos": "Chưa có hình ảnh",
+    "noPhotosDesc": "Hãy chụp hoặc upload ảnh cây lúa để xem vị trí trên bản đồ",
+    "captureNow": "Chụp ngay",
+    "capture": "Chụp ngay",
+    "locations": "vị trí",
+    "confidence": "Độ tin cậy",
+    "viewDetail": "Xem chi tiết",
+    "multiplePhotos": "{{count}} ảnh tại vị trí này",
+    "photosAtLocation": "ảnh tại vị trí này",
+    "analyzing": "Đang phân tích...",
+    "diseaseArea": "Vùng nguy cơ bệnh",
+    "areaRadius": "Bán kính: {{radius}}m",
+    "healthyArea": "Khu vực khỏe mạnh",
+    "diseaseZone": "Vùng dịch bệnh"
+  },
+
+  "photoDetail": {
+    "title": "Chi tiết phân tích",
+    "loading": "Đang tải...",
+    "confidence": "Độ tin cậy",
+    "diseaseInfo": "Thông tin bệnh",
+    "treatment": "Cách trị bệnh",
+    "chatWithDoctor": "Chat với Bác sĩ Lúa",
+    "viewOnMap": "Xem bản đồ",
+    "newPhoto": "Chụp mới",
+    "diseases": {
+      "bacterial_leaf_blight": {
+        "info": "Bệnh cháy bìa lá (Leaf burn)\n\n🦠 Nguyên nhân:\n- Vi khuẩn Xanthomonas oryzae pv. oryzae\n- Phát triển mạnh trong điều kiện ẩm ướt, nhiệt độ 25-30°C\n\n📋 Triệu chứng:\n- Lá có các vệt dài màu vàng nhạt đến xám trắng\n- Vệt bệnh thường xuất hiện ở rìa lá\n- Lá khô, chết dần từ đầu lá\n- Có thể gây thiệt hại nặng nếu không xử lý kịp thời\n\n⚠️ Mức độ nguy hiểm: Cao\n🌾 Giai đoạn dễ nhiễm: Đẻ nhánh đến trỗ bông",
+        "treatment": "Cách phòng trừ Bệnh cháy bìa lá:\n\n✅ Phòng ngừa:\n1. Chọn giống lúa kháng bệnh\n2. Xử lý hạt giống trước khi gieo bằng nước nóng 52-54°C trong 10 phút\n3. Tăng cường thoát nước, tránh ngập úng kéo dài\n4. Bón phân cân đối, không bón quá nhiều đạm\n5. Dọn sạch rơm rạ sau thu hoạch\n\n💊 Điều trị khi bị bệnh:\n1. Thuốc kháng sinh:\n   - Validamycin 5% (30ml/20 lít nước)\n   - Kasugamycin 2% (40ml/20 lít nước)\n\n2. Thuốc đồng:\n   - Đồng Hydroxide 77% WP (20g/20 lít nước)\n   - Phun cách 7-10 ngày\n\n3. Biện pháp nông nghiệp:\n   - Cắt bỏ lá bệnh, tiêu hủy xa ruộng\n   - Tăng phân kali để tăng sức đề kháng\n   - Tránh tưới nước ngập lúa vào buổi chiều\n\n📅 Lịch phun: 2-3 lần, cách nhau 7-10 ngày"
+      },
+      "blast": {
+        "info": "Bệnh đạo ôn (Blast Disease)\n\n🦠 Nguyên nhân:\n- Nấm Pyricularia oryzae (Magnaporthe oryzae)\n- Bệnh nguy hiểm nhất trên lúa\n\n📋 Triệu chứng:\n- Bệnh đạo ôn lá: Các vết bệnh hình thoi, viền nâu, tâm xám trắng\n- Bệnh đạo ôn cổ bông: Cổ bông gãy, bông chết non\n- Bệnh đạo ôn hạt: Hạt lép, giảm năng suất\n\n⚠️ Mức độ nguy hiểm: Rất cao\n🌾 Giai đoạn dễ nhiễm: Mọi giai đoạn, đặc biệt là đẻ nhánh và trỗ bông\n\n💧 Điều kiện phát bệnh:\n- Nhiệt độ 20-30°C\n- Độ ẩm cao > 90%\n- Sương mù, mưa phùn\n- Bón nhiều đạm, thiếu kali",
+        "treatment": "Cách phòng trừ Bệnh đạo ôn:\n\n✅ Phòng ngừa:\n1. Chọn giống lúa kháng bệnh cao\n2. Bón phân cân đối NPK, tăng cường K và Si\n3. Tránh bón đạm quá liều, bón muộn\n4. Khoảng cách hàng lúa hợp lý (thoáng, đủ ánh sáng)\n5. Xử lý hạt giống bằng thuốc trước khi gieo\n\n💊 Điều trị khi bị bệnh:\n1. Thuốc hệ Triazole:\n   - Tricyclazole 75% WP (15-20g/20 lít nước)\n   - Propiconazole 25% EC (20ml/20 lít nước)\n\n2. Thuốc hệ Strobilurin:\n   - Azoxystrobin 25% SC (20ml/20 lít nước)\n\n3. Thuốc phối hợp:\n   - Tricyclazole + Hexaconazole (20g/20 lít nước)\n\n4. Khi bệnh nặng:\n   - Phun 3-4 lần, cách 5-7 ngày\n   - Luân phiên các loại thuốc tránh kháng thuốc\n\n📅 Thời điểm phun:\n- Giai đoạn đẻ nhánh: phun phòng ngừa\n- Khi phát hiện bệnh: phun ngay lập tức\n- Trước trỗ bông 7-10 ngày: phun bảo vệ cổ bông\n\n⚠️ Lưu ý: Đạo ôn cổ bông rất nguy hiểm, cần phòng trước khi trỗ!"
+      },
+      "brown_spot": {
+        "info": "Bệnh đốm nâu (Brown Spot Disease)\n\n🦠 Nguyên nhân:\n- Nấm Bipolaris oryzae (Helminthosporium oryzae)\n- Phổ biến ở các vùng thiếu dinh dưỡng\n\n📋 Triệu chứng:\n- Các đốm nhỏ hình tròn hoặc bầu dục màu nâu\n- Đốm có viền vàng, tâm màu nâu xám\n- Lá có nhiều đốm, khô dần, giảm quang hợp\n- Hạt bị nhiễm có màu nâu đen\n\n⚠️ Mức độ nguy hiểm: Trung bình\n🌾 Giai đoạn dễ nhiễm: Từ đẻ nhánh đến chín\n\n💧 Điều kiện phát bệnh:\n- Thiếu dinh dưỡng (đặc biệt thiếu N, P, K, Si)\n- Độ ẩm cao 80-90%\n- Nhiệt độ 25-30°C\n- Đất chua, nghèo dinh dưỡng",
+        "treatment": "Cách phòng trừ Bệnh đốm nâu:\n\n✅ Phòng ngừa:\n1. Bón phân cân đối, đầy đủ NPK\n2. Bón bổ sung phân lân, kali và silic\n3. Cải tạo đất chua bằng vôi bột\n4. Sử dụng giống lúa khỏe, kháng bệnh\n5. Xử lý hạt giống trước khi gieo\n\n💊 Điều trị khi bị bệnh:\n1. Thuốc diệt nấm:\n   - Mancozeb 80% WP (30-40g/20 lít nước)\n   - Edifenphos 50% EC (30ml/20 lít nước)\n   - Isoprothiolane 40% EC (30ml/20 lít nước)\n\n2. Phun phối hợp:\n   - Thuốc diệt nấm + phân bón lá (NPK)\n   - Bổ sung kẽm và silic qua lá\n\n3. Bón phân bổ sung:\n   - Phân NPK cân đối\n   - Phân kali (tăng sức đề kháng)\n   - Vôi bột nếu đất chua\n\n📅 Lịch phun: 2 lần, cách nhau 10 ngày\n\n💡 Mẹo: Bệnh đốm nâu thường do thiếu dinh dưỡng. Cải thiện dinh dưỡng là cách tốt nhất!"
+      },
+      "healthy": {
+        "info": "Lá lúa khỏe mạnh 🎉\n\n✅ Đánh giá:\nCây lúa của bạn đang trong tình trạng tốt, không phát hiện dấu hiệu bệnh!\n\n🌿 Đặc điểm lá khỏe:\n- Màu xanh đậm, đều màu\n- Bề mặt lá không có vết đốm hay vệt bệnh\n- Lá cứng cáp, đứng thẳng\n- Không có hiện tượng khô, héo\n\n📊 Tiếp tục duy trì:\n1. Bón phân đúng liều, đúng thời điểm\n2. Quản lý nước hợp lý\n3. Theo dõi sâu bệnh thường xuyên\n4. Vệ sinh đồng ruộng sạch sẽ\n\n🎯 Khuyến nghị:\n- Tiếp tục giữ gìn chất lượng chăm sóc hiện tại\n- Quan sát định kỳ để phát hiện sớm nếu có bệnh\n- Chụp ảnh theo dõi sự phát triển của cây",
+        "treatment": "Biện pháp duy trì sức khỏe cây lúa:\n\n✅ Chăm sóc định kỳ:\n\n1. Bón phân cân đối:\n   - Đạm: Chia 3 lần (lót, đẻ nhánh, trỗ bông)\n   - Lân: Bón lót toàn bộ\n   - Kali: Chia 2 lần (lót và trỗ bông)\n   - Silic: 100-150 kg/ha (tăng sức đề kháng)\n\n2. Quản lý nước:\n   - Giai đoạn đẻ nhánh: Tưới nước cạn\n   - Phơi ruộng đúng lúc\n   - Giữ nước sâu 5-7cm giai đoạn trỗ bông\n\n3. Phòng ngừa sâu bệnh:\n   - Kiểm tra ruộng 2-3 lần/tuần\n   - Dùng bẫy đèn diệt sâu đêm\n   - Phun phòng bệnh nếu thời tiết xấu\n\n4. Vệ sinh đồng ruộng:\n   - Dọn cỏ dại thường xuyên\n   - Vệ sinh bờ mương\n   - Tiêu hủy cây bệnh nếu có\n\n📅 Lịch chăm sóc:\n- Tuần 1-3: Theo dõi cây con, bón lót\n- Tuần 4-6: Giai đoạn đẻ nhánh, bón đạm lần 2\n- Tuần 7-8: Phơi ruộng\n- Tuần 9-10: Trỗ bông, bón kali\n- Tuần 11-14: Chín, thu hoạch\n\n🏆 Chúc mừng! Tiếp tục chăm sóc tốt như vậy!"
+      }
+    }
+  },
+
+  "gallery": {
+    "title": "Thư viện ảnh",
+    "myPhotos": "Ảnh của tôi",
+    "noPhotos": "Chưa có ảnh nào",
+    "photoDetails": "Chi tiết ảnh",
+    "location": "Vị trí",
+    "timestamp": "Thời gian",
+    "device": "Thiết bị",
+    "deletePhoto": "Xóa ảnh",
+    "deleteConfirm": "Bạn có chắc muốn xóa ảnh này?",
+    "deleteSuccess": "Đã xóa ảnh",
+    "deleteFailed": "Không thể xóa ảnh"
+  },
+
+  "settings": {
+    "title": "Cài đặt",
+    "language": "Ngôn ngữ",
+    "vietnamese": "Tiếng Việt",
+    "english": "English",
+    "account": "Tài khoản",
+    "profile": "Hồ sơ",
+    "privacy": "Quyền riêng tư",
+    "security": "Bảo mật",
+    "about": "Giới thiệu",
+    "version": "Phiên bản",
+    "logout": "Đăng xuất",
+    "logoutConfirm": "Bạn có chắc muốn đăng xuất?",
+    "deleteAccount": "Xóa tài khoản",
+    "deleteAccountConfirm": "Bạn có chắc muốn xóa tài khoản? Hành động này không thể hoàn tác!",
+    "deleteAccountSuccess": "Tài khoản đã được xóa thành công",
+    "userInfo": "Thông tin người dùng",
+    "personalManagement": "Quản lý cá nhân",
+    "accountSettings": "Cài đặt tài khoản",
+    "support": "Hỗ trợ",
+    "IOT": "Quản lý ruộng IoT",
+    "expertConversations": "Lịch sử hỏi đáp chuyên gia",
+    "recognitionHistory": "Lịch sử nhận diện",
+    "aiChatHistory": "Lịch sử chat AI",
+    "changePassword": "Đổi mật khẩu",
+    "textSizeLabel": "Kích thước văn bản",
+    "textSize": {
+      "small": "Nhỏ",
+      "medium": "Vừa",
+      "large": "Lớn",
+      "example": "Cỡ chữ mẫu"
+    },
+    "faq": "Câu hỏi thường gặp"
+  },
+
+  "biometric": {
+    "enableTitle": "Bật đăng nhập nhanh?",
+    "enableDescription": "Sử dụng {{biometricType}} để đăng nhập nhanh chóng và bảo mật hơn trong các lần tới.",
+    "feature1": "Đăng nhập nhanh chóng",
+    "feature2": "Bảo mật cao",
+    "feature3": "Không cần nhớ mật khẩu",
+    "enable": "Bật ngay",
+    "skip": "Để sau",
+    "infoText": "Bạn có thể bật/tắt tính năng này trong Cài đặt bất cứ lúc nào.",
+    "loginWith": "Đăng nhập bằng",
+    "description": "Đăng nhập nhanh chóng và bảo mật với sinh trắc học.",
+    "enabled": "Đã bật đăng nhập sinh trắc học thành công!",
+    "disabled": "Đã tắt đăng nhập sinh trắc học.",
+    "enableFailed": "Không thể bật đăng nhập sinh trắc học",
+    "disableFailed": "Không thể tắt đăng nhập sinh trắc học.",
+    "notEnabled": "Vui lòng bật đăng nhập sinh trắc học trong Cài đặt.",
+    "failed": "Xác thực thất bại",
+    "setupRequired": "Cần xác thực",
+    "setupMessage": "Để bật đăng nhập sinh trắc học, bạn cần đăng nhập lại để lưu thông tin xác thực."
+  },
+
+  "home": {
+    "welcome": "Chào mừng đến với Bác sĩ Lúa",
+    "subtitle": "Chụp ảnh cây lúa với watermark GPS",
+    "getStarted": "Bắt đầu",
+    "recentPhotos": "Ảnh gần đây",
+    "viewAll": "Xem thêm",
+    "hello": "Xin chào",
+    "weather": {
+      "warning": "Khuyến cáo nông vụ"
+    },
+    "features": {
+      "title": "Tính năng nổi bật",
+      "chatAI": "Chat AI",
+      "stormTracking": "Theo dõi bão",
+      "doctorAI": "Bác sĩ AI",
+      "chatWithExperts": "Chat với chuyên gia",
+      "chatWithFarmers": "Chat với nhà nông"
+    },
+    "photoHistory": {
+      "title": "Lịch sử nhận diện",
+      "empty": "Chưa có ảnh nào",
+      "takePhoto": "Chụp ảnh ngay"
+    },
+    "news": {
+      "title": "Tin tức",
+      "empty": "Không có tin tức",
+      "categories": {
+        "agriculture": "Nông nghiệp",
+        "environment": "Môi trường",
+        "economy": "Kinh tế",
+        "market": "Thị trường"
+      }
+    }
+  },
+
+  "tabs": {
+    "home": "Trang chủ",
+    "weather": "Thời tiết",
+    "camera": "Camera",
+    "mapFarm": "Bản đồ",
+    "account": "Tài khoản"
+  },
+
+  "weather": {
+    "title": "Thời tiết",
+    "subtitle": "Thông tin thời tiết phục vụ nông nghiệp",
+    "comingSoon": "Thông tin thời tiết đang được cập nhật...",
+    "loading": "Đang tải thông tin thời tiết...",
+    "retry": "Thử lại",
+    "lastUpdate": "Cập nhật lúc",
+    "current": "HIỆN TẠI",
+    "forecast3Days": "3 NGÀY TỚI",
+    "warnings": "CẢNH BÁO",
+    "detail": "Chi tiết thời tiết",
+    "tapForDetails": "Nhấn để xem chi tiết",
+    "tapForMoreInfo": "Nhấn để xem thêm",
+    "swipeForMore": "Vuốt để xem thêm →",
+    "feelsLike": "Cảm giác",
+    "wind": "Gió",
+    "pressure": "Áp suất",
+    "temperature": "Nhiệt độ",
+    "humidity": "Độ ẩm",
+    "rain": "Mưa",
+    "recommendation": "Khuyến nghị",
+    "relatedDiseases": "Bệnh liên quan",
+    "askDoctorRice": "Hỏi Bác sĩ Lúa về thời tiết này",
+    "weatherAdvice": "Với thời tiết như này, tôi nên làm gì?",
+    "prefillQuestion": "Với thời tiết như này, tôi nên làm gì?",
+    "selectLocation": "Chọn vị trí",
+    "searchLocation": "Tìm kiếm địa điểm...",
+    "useCurrentLocation": "Dùng vị trí hiện tại",
+    "currentlyViewing": "Đang xem",
+    "savedLocations": "Vị trí đã lưu",
+    "popularCities": "Thành phố phổ biến",
+    "deleteLocation": "Xóa vị trí",
+    "confirmDelete": "Bạn có chắc muốn xóa vị trí này?",
+    "locationPermission": "Cần quyền vị trí",
+    "locationPermissionDesc": "Vui lòng cấp quyền truy cập vị trí để sử dụng tính năng này.",
+    "dayNames": {
+      "sunday": "Chủ Nhật",
+      "monday": "Thứ Hai",
+      "tuesday": "Thứ Ba",
+      "wednesday": "Thứ Tư",
+      "thursday": "Thứ Năm",
+      "friday": "Thứ Sáu",
+      "saturday": "Thứ Bảy"
+    },
+    "warningMessages": {
+      "blastCritical": {
+        "title": "🚨 Nguy cơ bệnh đạo ôn RẤT CAO",
+        "description": "Độ ẩm {{humidity}}% kết hợp mưa {{rain}}mm - Điều kiện lý tưởng cho bệnh đạo ôn phát triển.",
+        "recommendation": "KHẨN CẤP: Phun thuốc Tricyclazole hoặc Tebuconazole ngay trong 24h. Tăng cường thoát nước."
+      },
+      "blastHigh": {
+        "title": "⚠️ Nguy cơ bệnh đạo ôn CAO",
+        "description": "Độ ẩm {{humidity}}% - Môi trường thuận lợi cho bệnh đạo ôn.",
+        "recommendation": "Phun thuốc phòng ngừa trong 48h và theo dõi sát ruộng lúa."
+      },
+      "brownspotHigh": {
+        "title": "⚠️ Nguy cơ bệnh đốm nâu CAO",
+        "description": "Độ ẩm TB 3 ngày: {{humidity}}%, mưa tích lũy: {{rain}}mm.",
+        "recommendation": "Phun thuốc Mancozeb hoặc Validamycin, bổ sung phân Kali tăng sức đề kháng."
+      },
+      "brownspotMedium": {
+        "title": "🔶 Nguy cơ bệnh đốm nâu TRUNG BÌNH",
+        "description": "Độ ẩm TB 3 ngày: {{humidity}}%.",
+        "recommendation": "Theo dõi sát ruộng và chuẩn bị thuốc nếu xuất hiện triệu chứng."
+      },
+      "bacterialLeafHigh": {
+        "title": "⚠️ Nguy cơ bệnh bạc lá CAO",
+        "description": "Mưa liên tục {{days}} ngày, độ ẩm cao hơn 85%.",
+        "recommendation": "Phun Validamycin A hoặc Kasugamycin, kết hợp cắt bỏ lá bệnh."
+      },
+      "heatHigh": {
+        "title": "🌡️ Cảnh báo NẮNG NÓNG",
+        "description": "Nhiệt độ cao nhất: {{temperature}}°C - Nguy cơ cháy lá.",
+        "recommendation": "Tưới nước sáng sớm/chiều mát, giữ mực nước ruộng 5-7cm."
+      },
+      "heatMedium": {
+        "title": "🔶 Nắng nóng vừa phải",
+        "description": "Nhiệt độ cao nhất: {{temperature}}°C.",
+        "recommendation": "Duy trì mực nước ổn định và tưới vào sáng sớm."
+      },
+      "floodingCritical": {
+        "title": "🌊 CẢNH BÁO MƯA LỚN",
+        "description": "Mưa dự báo: {{rain}}mm - Nguy cơ ngập úng.",
+        "recommendation": "KHẨN CẤP: Kiểm tra thoát nước, đắp bờ bao, theo dõi mực nước 24/7."
+      },
+      "floodingHigh": {
+        "title": "⚠️ Mưa nhiều 3 ngày tới",
+        "description": "Tổng lượng mưa: {{rain}}mm.",
+        "recommendation": "Kiểm tra hệ thống thoát nước và chuẩn bị phương án chống úng."
+      },
+      "goodConditions": {
+        "title": "✅ Thời tiết thuận lợi",
+        "description": "Nhiệt độ {{temperature}}°C, độ ẩm {{humidity}}% - Điều kiện lý tưởng cho lúa phát triển.",
+        "recommendation": "Duy trì chăm sóc thường xuyên và theo dõi sâu bệnh."
+      }
+    }
+  },
+
+  "permissions": {
+    "title": "Yêu cầu quyền truy cập",
+    "description": "Bác sĩ Lúa cần các quyền sau để hoạt động tốt nhất:",
+    "camera": {
+      "title": "Camera",
+      "description": "Chụp ảnh cây lúa để phát hiện bệnh và gán watermark"
+    },
+    "location": {
+      "title": "Vị trí",
+      "description": "Xác định vị trí để gán thông tin địa lý vào ảnh"
+    },
+    "infoText": "Chúng tôi tôn trọng quyền riêng tư của bạn. Thông tin chỉ được sử dụng khi bạn chụp ảnh.",
+    "allow": "Cho phép",
+    "skip": "Bỏ qua",
+    "requesting": "Đang yêu cầu...",
+    "openSettings": "Mở cài đặt hệ thống"
+  },
+
+  "stormTracking": {
+    "title": "Theo dõi bão",
+    "info": "Dữ liệu thời tiết và bão từ Windy.com",
+    "loading": "Đang tải bản đồ...",
+    "legend": "Chú thích"
+  },
+
+  "photoHistory": {
+    "title": "Lịch sử nhận diện",
+    "loading": "Đang tải...",
+    "empty": "Chưa có ảnh nào",
+    "filters": {
+      "all": "Tất cả",
+      "healthy": "Lúa khỏe",
+      "bacterial": "Cháy bìa lá",
+      "blast": "Đạo ôn",
+      "brownSpot": "Đốm nâu",
+      "selectDate": "Chọn ngày"
+    }
+  },
+
+  "news": {
+    "title": "Tin tức",
+    "loading": "Đang tải tin tức...",
+    "empty": "Không có tin tức"
+  },
+
+  "newsDetail": {
+    "title": "Chi tiết tin tức",
+    "loading": "Đang tải...",
+    "readFull": "Đọc bài viết đầy đủ",
+    "openBrowser": "Mở trong trình duyệt",
+    "closeWebView": "Đóng"
+  },
+
+  "errors": {
+    "networkError": "Lỗi kết nối mạng",
+    "serverError": "Lỗi máy chủ",
+    "unknownError": "Lỗi không xác định",
+    "timeout": "Hết thời gian chờ",
+    "unauthorized": "Bạn cần đăng nhập để tiếp tục",
+    "forbidden": "Bạn không có quyền truy cập",
+    "notFound": "Không tìm thấy",
+    "validationError": "Dữ liệu không hợp lệ"
+  },
+
+  "account": {
+    "title": "Tài khoản",
+    "role": {
+      "user": "Nhà Nông",
+      "expert": "Chuyên gia"
+    },
+    "editProfile": "Chỉnh sửa thông tin",
+    "uploadAvatar": "Thay đổi ảnh đại diện",
+    "addPhone": "Thêm số điện thoại"
+  },
+
+  "profile": {
+    "title": "Thông tin tài khoản",
+    "fullName": "Họ và tên",
+    "phoneNumber": "Số điện thoại",
+    "save": "Lưu thay đổi",
+    "cancel": "Hủy",
+    "updateSuccess": "Cập nhật thông tin thành công",
+    "uploadAvatarSuccess": "Tải ảnh đại diện thành công"
+  },
+
+  "expertConversations": {
+    "title": "Lịch sử hỏi đáp chuyên gia",
+    "noPending": "Chưa có câu hỏi chưa trả lời",
+    "noAnswered": "Chưa có câu hỏi đã trả lời",
+    "noCompleted": "Chưa có cuộc hỏi đáp hoàn thành",
+    "noConversations": "Chưa có cuộc trò chuyện nào",
+    "pending": "Chưa trả lời",
+    "answered": "Đã trả lời",
+    "completed": "Hoàn thành",
+    "lastMessage": "Tin nhắn cuối",
+    "startChat": "Bắt đầu trò chuyện",
+    "selectExpert": "Chọn chuyên gia",
+    "messageExpert": "Nhắn tin với chuyên gia"
+  },
+  "experts": {
+    "list": {
+      "title": "Danh sách chuyên gia",
+      "searchPlaceholder": "Tìm kiếm chuyên gia...",
+      "onlineFilter": "Trực tuyến",
+      "askButton": "Đặt câu hỏi",
+      "reviewCount": "{{count}} nhận xét",
+      "status": {
+        "online": "Trực tuyến",
+        "offline": "Ngoại tuyến"
+      },
+      "empty": {
+        "noResults": "Không tìm thấy chuyên gia",
+        "noOnline": "Chưa có chuyên gia trực tuyến",
+        "none": "Chưa có chuyên gia nào"
+      }
+    },
+    "detail": {
+      "title": "Chi tiết chuyên gia",
+      "notFound": "Không tìm thấy chuyên gia",
+      "ratingCount": "({{count}} đánh giá)",
+      "commentCount": "{{count}} nhận xét",
+      "statusOnline": "Đang trực tuyến",
+      "statusOffline": "Ngoại tuyến",
+      "suggestionStatusOnline": "🟢 Trực tuyến",
+      "suggestionStatusOffline": "⚫ Ngoại tuyến",
+      "suggestionAsk": "Đặt câu hỏi",
+      "sections": {
+        "expertise": "Chuyên môn",
+        "education": "Học vấn",
+        "experience": "Kinh nghiệm",
+        "workHistory": "Quá trình công tác",
+        "workHistoryDetail": "Chi tiết công tác",
+        "reviews": "Nhận xét từ nhà nông ({{count}})",
+        "otherExperts": "Chuyên gia khác"
+      },
+      "noReviews": "Chưa có nhận xét nào",
+      "anonymousFarmer": "Nhà nông ẩn danh",
+      "askButton": "Đặt câu hỏi cho chuyên gia",
+      "viewMoreReviews": "Xem thêm nhận xét"
+    },
+    "reviews": {
+      "title": "Nhận xét chuyên gia",
+      "filterAll": "Tất cả",
+      "filterStars": "{{count}} sao",
+      "noReviews": "Chưa có nhận xét nào",
+      "anonymousFarmer": "Nhà nông ẩn danh"
+    }
+  },
+
+  "aiChatHistory": {
+    "title": "Lịch sử chat AI",
+    "noConversations": "Chưa có cuộc trò chuyện nào",
+    "continueChat": "Tiếp tục",
+    "delete": "Xóa",
+    "archive": "Lưu trữ",
+    "newConversation": "Cuộc trò chuyện mới",
+    "deleteConfirm": "Bạn có chắc muốn xóa cuộc trò chuyện này?",
+    "deleteSuccess": "Đã xóa cuộc trò chuyện"
+  },
+
+  "changePassword": {
+    "title": "Đổi mật khẩu",
+    "currentPassword": "Mật khẩu hiện tại",
+    "newPassword": "Mật khẩu mới",
+    "confirmNewPassword": "Nhập lại mật khẩu mới",
+    "save": "Lưu thay đổi",
+    "cancel": "Hủy",
+    "success": "Đổi mật khẩu thành công",
+    "successAndLogout": "Đổi mật khẩu thành công! Vui lòng đăng nhập lại.",
+    "passwordMismatch": "Mật khẩu mới không khớp",
+    "currentPasswordIncorrect": "Mật khẩu hiện tại không đúng",
+    "forgotPassword": "Quên mật khẩu?"
+  },
+
+  "faq": {
+    "title": "Câu hỏi thường gặp",
+    "q1": "Làm thế nào để chụp ảnh nhận diện bệnh?",
+    "a1": "Vào Trang chủ, nhấn nút Camera ở giữa màn hình. Chụp ảnh lá lúa rõ nét và đợi kết quả phân tích.",
+    "q2": "Làm sao để xem lịch sử ảnh đã chụp?",
+    "a2": "Vào Lịch sử nhận diện trong phần Tài khoản để xem tất cả ảnh đã chụp.",
+    "q3": "Tôi có thể hỏi chuyên gia về bệnh lúa không?",
+    "a3": "Có! Vào Lịch sử hỏi đáp chuyên gia trong Tài khoản và chọn một chuyên gia để bắt đầu trò chuyện.",
+    "q4": "Làm thế nào để đổi mật khẩu?",
+    "a4": "Vào Tài khoản > Đổi mật khẩu trong phần Cài đặt tài khoản.",
+    "q5": "Ứng dụng có miễn phí không?",
+    "a5": "Có, Bác sĩ Lúa hoàn toàn miễn phí cho nông dân Việt Nam.",
+    "q6": "Làm thế nào để thay đổi kích thước chữ?",
+    "a6": "Vào Tài khoản > Kích thước văn bản trong phần Cài đặt tài khoản.",
+    "q7": "Tôi có thể xem bản đồ ruộng lúa ở đâu?",
+    "a7": "Nhấn tab Bản đồ ở thanh menu dưới cùng để xem vị trí các ảnh đã chụp.",
+    "q8": "Làm sao để chat với AI về bệnh lúa?",
+    "a8": "Nhấn nút Chat ở góc dưới bên phải màn hình Trang chủ để bắt đầu trò chuyện với Bác sĩ Lúa AI."
+  },
+
+  "fieldSelection": {
+    "title": "Chọn ruộng",
+    "instruction": "Chọn ruộng đã kết nối IoT để xem ảnh từ thiết bị",
+    "loading": "Đang tải danh sách ruộng...",
+    "noFields": "Chưa có ruộng nào",
+    "noFieldsDesc": "Vui lòng tạo ruộng và kết nối thiết bị IoT trước",
+    "noIoTFields": "Chưa có ruộng nào kết nối IoT",
+    "noIoTFieldsDesc": "Vui lòng kết nối thiết bị IoT với ruộng trước",
+    "notConnected": "Chưa kết nối IoT",
+    "cancel": "Hủy",
+    "viewIoTImages": "Xem ảnh IoT"
+  },
+
+  "iotFieldSelection": {
+    "title": "Chọn ruộng IoT",
+    "subtitle": "{{count}} ruộng đã kết nối thiết bị",
+    "loading": "Đang tải danh sách ruộng...",
+    "emptyTitle": "Không có ruộng IoT nào",
+    "emptySubtitle": "Vui lòng kết nối thiết bị IoT với ruộng",
+    "info": "Chọn ruộng để xem bộ sưu tập ảnh từ thiết bị IoT",
+    "connected": "Đã kết nối"
+  },
+
+  "iotGallery": {
+    "title": "Bộ sưu tập IoT",
+    "selectField": "Chọn ruộng",
+    "selectFieldDesc": "Vui lòng chọn ruộng để xem ảnh từ IoT",
+    "today": "Hôm nay",
+    "yesterday": "Hôm qua",
+    "all": "Tất cả",
+    "week": "7 ngày",
+    "month": "30 ngày",
+    "noImages": "Chưa có ảnh",
+    "noImagesDesc": "Không có ảnh nào trong khoảng thời gian được chọn",
+    "loading": "Đang tải ảnh...",
+    "error": "Có lỗi xảy ra",
+    "retry": "Thử lại",
+    "viewAll": "Xem tất cả",
+    "images": "ảnh"
+  },
+
+  "result": {
+    "title": "Kết quả phân tích",
+    "loading": "Đang tải kết quả...",
+    "confidence": "Độ tin cậy",
+    "viewOnMap": "Xem trên bản đồ",
+    "recapture": "Chụp lại",
+    "viewDetails": "Xem chi tiết về bệnh và cách điều trị",
+    "chatWithDoctor": "Chat với Bác sĩ Lúa",
+    "noPrediction": "Không có kết quả phân tích",
+    "healthy": "Lá khỏe mạnh",
+    "healthyMessage": "Chúc mừng! Cây lúa của bạn khỏe mạnh",
+    "diseaseDetected": "Phát hiện bệnh",
+    "location": "Vị trí",
+    "capturedAt": "Thời gian chụp",
+    "iotImage": "Ảnh từ thiết bị IoT",
+    "sensorData": "Dữ liệu cảm biến IoT",
+    "treatmentGuide": "Hướng dẫn điều trị",
+    "treatmentNote": "Để có phác đồ điều trị chi tiết hơn, vui lòng chat với Bác sĩ Lúa bên dưới",
+    "sendToIoT": "Gửi thông tin điều trị cho IOT",
+    "sentToIoT": "✓ Đã gửi thông tin điều trị",
+    "treatmentSentSuccess": "Đã gửi thông tin điều trị đến thiết bị IoT"
+  },
+
+  "photoDetail": {
+    "title": "Chi tiết phân tích",
+    "loading": "Đang tải...",
+    "confidence": "Độ tin cậy",
+    "diseaseInfo": "Thông tin bệnh",
+    "treatment": "Cách trị bệnh",
+    "chatWithDoctor": "Chat với Bác sĩ Lúa",
+    "viewOnMap": "Xem bản đồ",
+    "newPhoto": "Chụp mới",
+    "diagnosisInfo": "Thông tin chuẩn đoán",
+    "loadingPlan": "Đang tạo kế hoạch giám sát...",
+    "sendToIoT": "Gửi thông tin điều trị cho IOT",
+    "sentToIoT": "✓ Đã gửi thông tin điều trị",
+    "treatmentSentSuccess": "Đã gửi thông tin điều trị đến thiết bị IoT",
+    "diseases": {
+      "bacterial_leaf_blight": {
+        "info": "Bệnh cháy bìa lá (Leaf burn)\n\n🦠 Nguyên nhân:\n- Vi khuẩn Xanthomonas oryzae pv. oryzae\n- Phát triển mạnh trong điều kiện ẩm ướt, nhiệt độ 25-30°C\n\n📋 Triệu chứng:\n- Lá có các vệt dài màu vàng nhạt đến xám trắng\n- Vệt bệnh thường xuất hiện ở rìa lá\n- Lá khô, chết dần từ đầu lá\n- Có thể gây thiệt hại nặng nếu không xử lý kịp thời\n\n⚠️ Mức độ nguy hiểm: Cao\n🌾 Giai đoạn dễ nhiễm: Đẻ nhánh đến trỗ bông",
+        "treatment": "Cách phòng trừ Bệnh cháy bìa lá:\n\n✅ Phòng ngừa:\n1. Chọn giống lúa kháng bệnh\n2. Xử lý hạt giống trước khi gieo bằng nước nóng 52-54°C trong 10 phút\n3. Tăng cường thoát nước, tránh ngập úng kéo dài\n4. Bón phân cân đối, không bón quá nhiều đạm\n5. Dọn sạch rơm rạ sau thu hoạch\n\n💊 Điều trị khi bị bệnh:\n1. Thuốc kháng sinh:\n   - Validamycin 5% (30ml/20 lít nước)\n   - Kasugamycin 2% (40ml/20 lít nước)\n\n2. Thuốc đồng:\n   - Đồng Hydroxide 77% WP (20g/20 lít nước)\n   - Phun cách 7-10 ngày\n\n3. Biện pháp nông nghiệp:\n   - Cắt bỏ lá bệnh, tiêu hủy xa ruộng\n   - Tăng phân kali để tăng sức đề kháng\n   - Tránh tưới nước ngập lúa vào buổi chiều\n\n📅 Lịch phun: 2-3 lần, cách nhau 7-10 ngày"
+      },
+      "blast": {
+        "info": "Bệnh đạo ôn (Blast Disease)\n\n🦠 Nguyên nhân:\n- Nấm Pyricularia oryzae (Magnaporthe oryzae)\n- Bệnh nguy hiểm nhất trên lúa\n\n📋 Triệu chứng:\n- Bệnh đạo ôn lá: Các vết bệnh hình thoi, viền nâu, tâm xám trắng\n- Bệnh đạo ôn cổ bông: Cổ bông gãy, bông chết non\n- Bệnh đạo ôn hạt: Hạt lép, giảm năng suất\n\n⚠️ Mức độ nguy hiểm: Rất cao\n🌾 Giai đoạn dễ nhiễm: Mọi giai đoạn, đặc biệt là đẻ nhánh và trỗ bông\n\n💧 Điều kiện phát bệnh:\n- Nhiệt độ 20-30°C\n- Độ ẩm cao > 90%\n- Sương mù, mưa phùn\n- Bón nhiều đạm, thiếu kali",
+        "treatment": "Cách phòng trừ Bệnh đạo ôn:\n\n✅ Phòng ngừa:\n1. Chọn giống lúa kháng bệnh cao\n2. Bón phân cân đối NPK, tăng cường K và Si\n3. Tránh bón đạm quá liều, bón muộn\n4. Khoảng cách hàng lúa hợp lý (thoáng, đủ ánh sáng)\n5. Xử lý hạt giống bằng thuốc trước khi gieo\n\n💊 Điều trị khi bị bệnh:\n1. Thuốc hệ Triazole:\n   - Tricyclazole 75% WP (15-20g/20 lít nước)\n   - Propiconazole 25% EC (20ml/20 lít nước)\n\n2. Thuốc hệ Strobilurin:\n   - Azoxystrobin 25% SC (20ml/20 lít nước)\n\n3. Thuốc phối hợp:\n   - Tricyclazole + Hexaconazole (20g/20 lít nước)\n\n4. Khi bệnh nặng:\n   - Phun 3-4 lần, cách 5-7 ngày\n   - Luân phiên các loại thuốc tránh kháng thuốc\n\n📅 Thời điểm phun:\n- Giai đoạn đẻ nhánh: phun phòng ngừa\n- Khi phát hiện bệnh: phun ngay lập tức\n- Trước trỗ bông 7-10 ngày: phun bảo vệ cổ bông\n\n⚠️ Lưu ý: Đạo ôn cổ bông rất nguy hiểm, cần phòng trước khi trỗ!"
+      },
+      "brown_spot": {
+        "info": "Bệnh đốm nâu (Brown Spot Disease)\n\n🦠 Nguyên nhân:\n- Nấm Bipolaris oryzae (Helminthosporium oryzae)\n- Phổ biến ở các vùng thiếu dinh dưỡng\n\n📋 Triệu chứng:\n- Các đốm nhỏ hình tròn hoặc bầu dục màu nâu\n- Đốm có viền vàng, tâm màu nâu xám\n- Lá có nhiều đốm, khô dần, giảm quang hợp\n- Hạt bị nhiễm có màu nâu đen\n\n⚠️ Mức độ nguy hiểm: Trung bình\n🌾 Giai đoạn dễ nhiễm: Từ đẻ nhánh đến chín\n\n💧 Điều kiện phát bệnh:\n- Thiếu dinh dưỡng (đặc biệt thiếu N, P, K, Si)\n- Độ ẩm cao 80-90%\n- Nhiệt độ 25-30°C\n- Đất chua, nghèo dinh dưỡng",
+        "treatment": "Cách phòng trừ Bệnh đốm nâu:\n\n✅ Phòng ngừa:\n1. Bón phân cân đối, đầy đủ NPK\n2. Bón bổ sung phân lân, kali và silic\n3. Cải tạo đất chua bằng vôi bột\n4. Sử dụng giống lúa khỏe, kháng bệnh\n5. Xử lý hạt giống trước khi gieo\n\n💊 Điều trị khi bị bệnh:\n1. Thuốc diệt nấm:\n   - Mancozeb 80% WP (30-40g/20 lít nước)\n   - Edifenphos 50% EC (30ml/20 lít nước)\n   - Isoprothiolane 40% EC (30ml/20 lít nước)\n\n2. Phun phối hợp:\n   - Thuốc diệt nấm + phân bón lá (NPK)\n   - Bổ sung kẽm và silic qua lá\n\n3. Bón phân bổ sung:\n   - Phân NPK cân đối\n   - Phân kali (tăng sức đề kháng)\n   - Vôi bột nếu đất chua\n\n📅 Lịch phun: 2 lần, cách nhau 10 ngày\n\n💡 Mẹo: Bệnh đốm nâu thường do thiếu dinh dưỡng. Cải thiện dinh dưỡng là cách tốt nhất!"
+      },
+      "healthy": {
+        "info": "Lá lúa khỏe mạnh 🎉\n\n✅ Đánh giá:\nCây lúa của bạn đang trong tình trạng tốt, không phát hiện dấu hiệu bệnh!\n\n🌿 Đặc điểm lá khỏe:\n- Màu xanh đậm, đều màu\n- Bề mặt lá không có vết đốm hay vệt bệnh\n- Lá cứng cáp, đứng thẳng\n- Không có hiện tượng khô, héo\n\n📊 Tiếp tục duy trì:\n1. Bón phân đúng liều, đúng thời điểm\n2. Quản lý nước hợp lý\n3. Theo dõi sâu bệnh thường xuyên\n4. Vệ sinh đồng ruộng sạch sẽ\n\n🎯 Khuyến nghị:\n- Tiếp tục giữ gìn chất lượng chăm sóc hiện tại\n- Quan sát định kỳ để phát hiện sớm nếu có bệnh\n- Chụp ảnh theo dõi sự phát triển của cây",
+        "treatment": "Biện pháp duy trì sức khỏe cây lúa:\n\n✅ Chăm sóc định kỳ:\n\n1. Bón phân cân đối:\n   - Đạm: Chia 3 lần (lót, đẻ nhánh, trỗ bông)\n   - Lân: Bón lót toàn bộ\n   - Kali: Chia 2 lần (lót và trỗ bông)\n   - Silic: 100-150 kg/ha (tăng sức đề kháng)\n\n2. Quản lý nước:\n   - Giai đoạn đẻ nhánh: Tưới nước cạn\n   - Phơi ruộng đúng lúc\n   - Giữ nước sâu 5-7cm giai đoạn trỗ bông\n\n3. Phòng ngừa sâu bệnh:\n   - Kiểm tra ruộng 2-3 lần/tuần\n   - Dùng bẫy đèn diệt sâu đêm\n   - Phun phòng bệnh nếu thời tiết xấu\n\n4. Vệ sinh đồng ruộng:\n   - Dọn cỏ dại thường xuyên\n   - Vệ sinh bờ mương\n   - Tiêu hủy cây bệnh nếu có\n\n📅 Lịch chăm sóc:\n- Tuần 1-3: Theo dõi cây con, bón lót\n- Tuần 4-6: Giai đoạn đẻ nhánh, bón đạm lần 2\n- Tuần 7-8: Phơi ruộng\n- Tuần 9-10: Trỗ bông, bón kali\n- Tuần 11-14: Chín, thu hoạch\n\n🏆 Chúc mừng! Tiếp tục chăm sóc tốt như vậy!"
+      }
+    }
+  },
+
+  "chatbot": {
+    "welcomeMessage": "Xin chào, mình là Bác sĩ Lúa, rất vui khi được hỗ trợ bạn",
+    "welcomeWithImage": "Tôi đã nhận được ảnh của anh/chị. Anh/Chị muốn hỏi gì về cây lúa này?",
+    "suggestions": {
+      "monitoringPlan": "🔍 Kế hoạch giám sát tự động",
+      "keepHealthy": "💡 Làm sao để cây lúa luôn khỏe mạnh?",
+      "preventDisease": "🛡️ Cách phòng ngừa bệnh hiệu quả?",
+      "whatNext": "📋 Tôi nên làm gì tiếp theo?",
+      "bestCare": "🌾 Cách chăm sóc lúa tốt nhất?",
+      "diseaseDanger": "⚠️ Bệnh {{disease}} có nguy hiểm không?",
+      "preventSpecific": "🛡️ Cách phòng ngừa bệnh {{disease}}?",
+      "diseaseCause": "💡 Nguyên nhân gây ra bệnh {{disease}}?"
+    },
+    "newImageMessage": "Đây là ảnh lá lúa mới của tôi. Vui lòng giúp tôi phân tích.",
+    "newConversation": "Cuộc trò chuyện mới",
+    "sendToIoT": "Gửi thông tin phân tích đến IoT",
+    "sendingToIoT": "Đang gửi...",
+    "clearHistoryTitle": "Cuộc trò chuyện mới",
+    "clearHistoryMessage": "Bạn có muốn bắt đầu cuộc trò chuyện mới? Cuộc trò chuyện hiện tại sẽ được lưu lại.",
+    "clearHistoryCancel": "Hủy",
+    "clearHistoryConfirm": "Bắt đầu mới",
+    "error": "Lỗi",
+    "errorConnection": "Không thể kết nối với AI. Vui lòng thử lại.",
+    "errorMissingInfo": "Thiếu thông tin ảnh hoặc ruộng",
+    "errorLogin": "Vui lòng đăng nhập lại",
+    "errorSendFailed": "Không thể gửi thông tin điều trị. Vui lòng thử lại.",
+    "success": "✅ Thành công",
+    "sendFailed": "Gửi thất bại"
+  }
+}
