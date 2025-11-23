@@ -1,44 +1,26 @@
 {
   "project_info": {
-    "project_number": "95898980634",
-    "project_id": "doctor-3c3ef",
-    "storage_bucket": "doctor-3c3ef.firebasestorage.app"
+    "project_number": "180853631876",
+    "project_id": "doctorrice-main",
+    "storage_bucket": "doctorrice-main.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:95898980634:android:0c2b2429101840ad8ddca3",
+        "mobilesdk_app_id": "1:180853631876:android:190ea1d1286d82e80ecbd1",
         "android_client_info": {
-          "package_name": "com.doctorrice.app"
+          "package_name": "com.doctorrice.appv"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "95898980634-g65e4d7btfoo8ru0gn2qd1p4hk79l5vv.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.doctorrice.app",
-            "certificate_hash": "45db064666194707418589837c2b940939f8c328"
-          }
-        },
-        {
-          "client_id": "95898980634-1qa3o4aj2lf4f4sr2q50l1u6c9l102i2.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyD1ehvlhAiCtTIUj8sjhEX0rrCheLYyPf0"
+          "current_key": "AIzaSyA8X2_2K6LjIuBjgHs1sKy7quYjAuuzE60"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "95898980634-1qa3o4aj2lf4f4sr2q50l1u6c9l102i2.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }
