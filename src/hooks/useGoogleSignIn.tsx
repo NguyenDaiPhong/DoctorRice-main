@@ -7,7 +7,7 @@ import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import { useEffect, useState } from 'react';
 
 // Web Client ID from google-services.json
-const WEB_CLIENT_ID = '95898980634-1qa3o4aj2lf4f4sr2q50l1u6c9l102i2.apps.googleusercontent.com';
+const WEB_CLIENT_ID = '1059256567110-8hae29093ltrdt69assp9hhjlh1j16df.apps.googleusercontent.com';
 
 export const useGoogleSignIn = () => {
   const [isLoading, setIsLoading] = useState(false);
