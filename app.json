@@ -38,7 +38,7 @@
       }
     },
     "android": {
-      "package": "com.doctorrice.app",
+      "package": "com.doctorrice.appv",
       "googleServicesFile": "./google-services.json",
       "permissions": [
         "CAMERA",
